@@ -105,6 +105,7 @@ async def usage(ctx):
     await ctx.send('4. !ascii <text>: converts the text into ascii text')
     await ctx.send('5. !define <variable> <value>: create variables and assign values')
     await ctx.send('6. !print <variable>: print values of variables')
+    await ctx.send('7. !slap <members> <reason>')
 
 @meth.listen()
 async def on_message(message):
